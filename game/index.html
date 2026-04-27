@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2f6fed">
+    <title>AI Game Director Lab Starter</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="game-panel" aria-labelledby="game-title">
+        <div class="top-bar">
+          <div>
+            <h1 id="game-title">Untitled Starter Game</h1>
+            <p>Move with arrow keys. Collect 5 items.</p>
+          </div>
+          <div class="score-box" aria-live="polite">
+            Score: <span id="score">0</span> / <span id="target-score">5</span>
+          </div>
+        </div>
+
+        <div id="game-area" class="game-area" tabindex="0" aria-label="Untitled starter game play area">
+          <div id="player" class="player" aria-hidden="true"></div>
+          <div id="collectible" class="collectible" aria-hidden="true"></div>
+          <div id="message" class="message" role="status" aria-live="polite"></div>
+        </div>
+
+        <div class="controls">
+          <button id="restart-button" type="button">Restart</button>
+          <p>Tip: click the play area if arrow keys do not respond.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/game.js"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "AI Game Director Lab Starter",
+  "short_name": "Game Lab",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#2f6fed",
+  "description": "A tiny web-first game starter for kid-led AI game making.",
+  "icons": []
+}
+
