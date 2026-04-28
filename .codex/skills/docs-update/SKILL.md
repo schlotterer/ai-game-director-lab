@@ -22,4 +22,6 @@ Docs to consider:
 - `docs/prompt-history.md`
 - `docs/playtest-notes.md`
 - `docs/idea-parking-lot.md`
+- `docs/neurodivergent-session-guide.md` if the workflow support changed
 
+When relevant, record comfort notes, break needs, sensory issues, and stop points without adding private medical information.

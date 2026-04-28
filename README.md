@@ -8,6 +8,8 @@ This is not a coding-language curriculum first. It teaches a child to imagine, d
 
 The starter game is intentionally plain. It has movement, one item to collect, scoring, and a win state, but it does not decide the title, story, character, world, or item identity. Those should come from the child during the first session.
 
+This workflow is designed to be ADHD/autistic-friendly: predictable, low-pressure, choice-based, sensory-aware, and built around short visible progress.
+
 ## First-Run Path
 
 1. Open `game/index.html` and play the starter game once.
@@ -22,6 +24,8 @@ The starter game is intentionally plain. It has movement, one item to collect, s
 - Creativity over passive play.
 - Direction over syntax.
 - Small playable wins over giant unfinished plans.
+- Predictable steps over open-ended pressure.
+- Regulation and comfort over finishing one more feature.
 - Every session should end with something playable, visible, or decided.
 
 ## Roles
@@ -65,15 +69,29 @@ Use the arrow keys to move. Collect 5 items to win. Press Restart to play again.
 ## How a Codex-Led Session Works
 
 1. Start in Creative Coach Mode.
-2. Codex reads the project docs.
-3. Codex recaps the current game in a few sentences.
-4. Codex asks the child one simple question with choices.
-5. Codex turns the answer into one small feature ticket.
-6. The adult approves or adjusts the ticket.
-7. Codex enters Builder Mode and implements only that feature.
-8. Codex updates docs and explains how to test.
+2. Codex gives a short agenda: First recap, then one choice, then one tiny ticket.
+3. Codex reads the project docs.
+4. Codex recaps the current game in a few sentences.
+5. Codex asks the child one simple question with choices.
+6. Codex turns the answer into one small feature ticket.
+7. The adult approves, adjusts, pauses, or stops.
+8. Codex enters Builder Mode and implements only that feature.
+9. Codex updates docs and explains how to test.
 
 The default workflow happens inside Codex. A separate ChatGPT conversation is optional, not required.
+
+## ADHD/Autistic-Friendly Defaults
+
+- Use one question at a time.
+- Offer 2-4 concrete choices instead of open-ended brainstorming.
+- Say what happens next before switching activities.
+- Keep sessions short, usually 15-30 minutes.
+- Make stopping a normal success state.
+- Avoid timers unless the child likes them.
+- Avoid surprise changes, loud effects, flashing, or forced competition.
+- Treat intense interests as useful creative material.
+- Let the child answer by pointing, choosing a letter, speaking, typing, or asking the adult to translate.
+- Keep a visible parking lot so ideas are saved, not lost.
 
 ## Adult Safety Rails
 
@@ -82,6 +100,8 @@ The default workflow happens inside Codex. A separate ChatGPT conversation is op
 - Use the parking lot for big ideas.
 - Make Codex show the feature ticket before coding.
 - Approve, adjust, or stop before Builder Mode begins.
+- Offer a break before frustration becomes the main event.
+- Do not force eye contact, fast answers, or verbal explanations.
 - End with a playtest or a clear next decision.
 
 ## Docs
@@ -92,6 +112,7 @@ The default workflow happens inside Codex. A separate ChatGPT conversation is op
 - `docs/prompt-history.md`: prompts, tickets, and outcomes.
 - `docs/playtest-notes.md`: what felt fun, confusing, easy, or hard.
 - `docs/child-profile-template.md`: optional reusable child profile.
+- `docs/neurodivergent-session-guide.md`: ADHD/autistic-friendly session supports.
 - `docs/future-unity-path.md`: when a later Unity repo may make sense.
 
 ## Prompts
@@ -111,6 +132,7 @@ Other prompt templates help with feature requests, bug reports, playtests, relea
 The repo includes local skills in `.codex/skills/`:
 
 - `creative-coach-session`: start or guide a kid-led session before coding.
+- `neurodivergent-friendly-session`: keep sessions predictable, sensory-aware, and choice-based.
 - `feature-ticket`: turn an idea into one tiny buildable feature.
 - `playtest-review`: review a playtest and find the next change.
 - `docs-update`: update the project docs after meaningful changes.
@@ -127,7 +149,9 @@ The repo includes local skills in `.codex/skills/`:
 
 ## Session Length
 
-Start with 20 to 35 minutes. Stop while the child still has energy. Write down extra ideas in the parking lot.
+Start with 15 to 30 minutes. Stop while the child still has energy. Write down extra ideas in the parking lot.
+
+For some kids, 5 to 10 minutes is a complete successful session. A session can end after one good choice, one playtest, or one saved idea.
 
 ## Avoid Scope Creep
 

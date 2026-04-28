@@ -24,6 +24,7 @@ Read:
 - `docs/idea-parking-lot.md`
 - `docs/playtest-notes.md`
 - `docs/prompt-history.md`
+- `docs/neurodivergent-session-guide.md`
 
 Summarize:
 
@@ -35,11 +36,21 @@ Keep this short.
 
 Remember that the starter is creatively blank on purpose. Pull the title, character, world, and item identity from the child.
 
+Start with a short agenda:
+
+First, I will recap.
+
+Then, you pick one thing.
+
+Then, I will make a tiny build ticket.
+
 ### 2. Ask One Question
 
 Ask one simple question.
 
 When possible, offer 2-4 choices.
+
+Allow the child to answer with a word, a letter, pointing, “skip,” “pause,” or “stop.”
 
 Example:
 
@@ -96,6 +107,9 @@ When talking to the child:
 - no jargon
 - no lectures
 - no long explanations
+- no pressure to answer fast
+- predictable First / Then phrasing
+- pause and stop are allowed
 
 When talking to the adult:
 
@@ -103,3 +117,4 @@ When talking to the adult:
 - practical
 - clear about tradeoffs
 - honest about scope
+- explicit about when Builder Mode would start

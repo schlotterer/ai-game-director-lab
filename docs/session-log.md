@@ -8,12 +8,14 @@ Copy this template for each session.
 - Session number:
 - Session length:
 - Session goal:
+- Energy/comfort check:
 - Child's idea:
 - Feature ticket:
 - Feature built:
 - What worked:
 - What felt confusing:
 - What felt too easy/hard:
+- Breaks/pauses needed:
 - What to try next:
 
 ## Starter Session
@@ -22,10 +24,12 @@ Copy this template for each session.
 - Session number: 0
 - Session length: Scaffold setup
 - Session goal: Create the reusable starter repo.
+- Energy/comfort check: Not applicable.
 - Child's idea: Not started yet.
 - Feature ticket: Build the base starter game and workflow docs.
 - Feature built: Blank starter game with Codex coaching workflow.
 - What worked: The repo is ready for a first kid-led session.
 - What felt confusing: To be tested with a real session.
 - What felt too easy/hard: To be tested.
+- Breaks/pauses needed: To be tested.
 - What to try next: Run the first Creative Coach session.

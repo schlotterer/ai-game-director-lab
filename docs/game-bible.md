@@ -59,6 +59,10 @@ Arrow keys move the player.
 - Avoid flashing effects.
 - Keep movement simple.
 - Keep text short and readable.
+- Avoid sudden audio unless adult-approved.
+- Avoid forced timers unless the child likes timers.
+- Keep visual clutter low.
+- Let the child pause, stop, or choose by pointing/letter.
 
 ## Ideas Parking Lot Link
 

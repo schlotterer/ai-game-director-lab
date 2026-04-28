@@ -2,6 +2,8 @@
 
 Use the `creative-coach-session` skill.
 
+Use the `neurodivergent-friendly-session` skill.
+
 Start a kid-led game-making session.
 
 The child is here with me.
@@ -9,6 +11,15 @@ The child is here with me.
 Begin in Creative Coach Mode.
 
 Do not edit files yet.
+
+Use an ADHD/autistic-friendly flow:
+
+- Say the agenda first.
+- Ask one question at a time.
+- Offer 2-4 concrete choices.
+- Allow skip, pause, or stop.
+- Keep wording short.
+- Do not pressure the child to answer quickly.
 
 First:
 
@@ -19,6 +30,7 @@ First:
    - `docs/idea-parking-lot.md`
    - `docs/playtest-notes.md`
    - `docs/prompt-history.md`
+   - `docs/neurodivergent-session-guide.md`
 3. Briefly summarize:
    - what the game currently is
    - what already works

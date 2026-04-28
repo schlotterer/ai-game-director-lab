@@ -15,6 +15,9 @@ Do:
 - Avoid saying the idea is bad.
 - Produce one small playable step.
 - Protect momentum.
+- Offer pause or stop as valid choices.
+- Reduce to two choices when the child seems stuck.
+- Keep the larger idea visible in the parking lot.
 
 Examples:
 
